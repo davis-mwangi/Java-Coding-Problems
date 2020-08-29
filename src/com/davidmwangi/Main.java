@@ -65,7 +65,12 @@ public class Main {
         String TEXT_4 = "Science";
         String TEXT_5 = "Academy";
 
-        System.out.println(JoinMultipleString.joinByDelimiterV2(' ', TEXT_1,TEXT_2,TEXT_3,TEXT_4,TEXT_5));
+//        System.out.println(JoinMultipleString.joinByDelimiterV2(' ', TEXT_1,TEXT_2,TEXT_3,TEXT_4,TEXT_5));
+
+
+        /*** Generating all permutations **/
+         String TEXT7 = "ABC";
+         GeneratePermutations.permuteAndPrint(TEXT7);
 
     }
 }
