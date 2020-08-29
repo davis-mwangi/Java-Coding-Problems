@@ -19,6 +19,17 @@ public class Main {
 
         /** Finding the first repeated character**/
         String TEXT3 = "afjfkekjkjkgjk4a";
-        System.out.println(FirstRepeatedCharacter.firstRepeatedCharacterV1(TEXT3));
+//        System.out.println(FirstRepeatedCharacter.firstRepeatedCharacterV1(TEXT3));
+
+        /** Checking whether a string contains only digits **/
+        String ONLY_DIGITS = "45566336754493420932877387482372374982374823"
+                + "749823283974232237238472392309230923849023848234580383485342234287943943094"
+                + "234745374657346578465783467843653748654376837463847654382382938793287492326";
+
+        String NOT_ONLY_DIGITS = "45566336754493420932877387482372374982374823"
+                + "749823283974232237238472392309230923849023848234580383485342234287943943094"
+                + "234745374657346578465783467843653748654376837463847654382382938793287492326P";
+        System.out.println(ContainOnlyDigits.containsOnlyDigitsV1(ONLY_DIGITS));
+        System.out.println(ContainOnlyDigits.containsOnlyDigitsV1(NOT_ONLY_DIGITS));
     }
 }
