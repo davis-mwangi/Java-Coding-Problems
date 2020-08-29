@@ -37,6 +37,16 @@ public class Main {
 
         // 14 vowels, 19 consonants
          String TEXT4 = " ... Illinois Mathematics & Science Academy ... ";
-         System.out.println(CountVowelsAndConsonants.countVowelsAndConsonantsV1(TEXT4));
+//         System.out.println(CountVowelsAndConsonants.countVowelsAndConsonantsV1(TEXT4));
+
+         /*** Counting occurrences of a certain character: **/
+         String TEXT5 = "My high school, the Illinois Mathematics and Science Academy, "
+                + "showed me that anything is possible and that you're never too young to think big. "
+                + "At 15, I worked as a computer programmer at the Fermi National Accelerator Laboratory, "
+                + "or Fermilab. After graduating, I attended Stanford for a degree in economics and "
+                + "computer science.";
+         char CHAR_TO_COUNT = 'u';
+         System.out.println(CountOccurrenceOfCharacter.countOccurrencesOfACertainCharacterV1(TEXT5, CHAR_TO_COUNT));
+         System.out.println(CountOccurrenceOfCharacter.countOccurrencesOfACertainCharacterV2(TEXT5, CHAR_TO_COUNT));
     }
 }
