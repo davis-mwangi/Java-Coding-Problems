@@ -29,7 +29,14 @@ public class Main {
         String NOT_ONLY_DIGITS = "45566336754493420932877387482372374982374823"
                 + "749823283974232237238472392309230923849023848234580383485342234287943943094"
                 + "234745374657346578465783467843653748654376837463847654382382938793287492326P";
-        System.out.println(ContainOnlyDigits.containsOnlyDigitsV1(ONLY_DIGITS));
-        System.out.println(ContainOnlyDigits.containsOnlyDigitsV1(NOT_ONLY_DIGITS));
+//        System.out.println(ContainOnlyDigits.containsOnlyDigitsV1(ONLY_DIGITS));
+//        System.out.println(ContainOnlyDigits.containsOnlyDigitsV1(NOT_ONLY_DIGITS));
+
+
+        /** Counting vowels and consonants **/
+
+        // 14 vowels, 19 consonants
+         String TEXT4 = " ... Illinois Mathematics & Science Academy ... ";
+         System.out.println(CountVowelsAndConsonants.countVowelsAndConsonantsV1(TEXT4));
     }
 }
