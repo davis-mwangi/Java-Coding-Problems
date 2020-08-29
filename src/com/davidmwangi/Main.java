@@ -13,8 +13,12 @@ public class Main {
 //        System.out.println(CountDuplicateCharacters.countDuplicateCharactersV1(TEXT1));
 
 
-        /** **/
+        /** Finding the first non-repeated character**/
         String TEXT2 = "afjfkekjkjkgjk4a";
-        System.out.println(FirstNonRepeatedCharacter.firstNonRepeatedCharacterV1(TEXT2));
+//        System.out.println(FirstNonRepeatedCharacter.firstNonRepeatedCharacterV1(TEXT2));
+
+        /** Finding the first repeated character**/
+        String TEXT3 = "afjfkekjkjkgjk4a";
+        System.out.println(FirstRepeatedCharacter.firstRepeatedCharacterV1(TEXT3));
     }
 }
