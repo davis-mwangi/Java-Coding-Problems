@@ -46,7 +46,17 @@ public class Main {
                 + "or Fermilab. After graduating, I attended Stanford for a degree in economics and "
                 + "computer science.";
          char CHAR_TO_COUNT = 'u';
-         System.out.println(CountOccurrenceOfCharacter.countOccurrencesOfACertainCharacterV1(TEXT5, CHAR_TO_COUNT));
-         System.out.println(CountOccurrenceOfCharacter.countOccurrencesOfACertainCharacterV2(TEXT5, CHAR_TO_COUNT));
+//         System.out.println(CountOccurrenceOfCharacter.countOccurrencesOfACertainCharacterV1(TEXT5, CHAR_TO_COUNT));
+//         System.out.println(CountOccurrenceOfCharacter.countOccurrencesOfACertainCharacterV2(TEXT5, CHAR_TO_COUNT));
+
+         /** Removing white spaces from a string **/
+
+        String TEXT6 = "      My high\n\n school,        the Illinois Mathematics and Science Academy, "
+                + "showed me that anything is possible and that you're never too young to think big. \r"
+                + "At 15, I worked as a computer programmer at the Fermi National Accelerator Laboratory, \t"
+                + "or Fermilab. After graduating, I attended Stanford for a degree in economics and "
+                + "computer science.           ";
+        System.out.println(RemoveWhiteSpacesFromString.removeWhitespaces(TEXT6));
+
     }
 }
