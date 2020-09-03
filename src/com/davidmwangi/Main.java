@@ -1,5 +1,9 @@
 package com.davidmwangi;
 
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -84,7 +88,18 @@ public class Main {
         /** Removing given characters **/
         String TEXT10 = "oobotooorogshŜoootorgo";
         char CHAR = 'Ŝ';
-        System.out.println(RemoveGivenCharacter.removeCharacterV1(TEXT10,CHAR));
-        System.out.println(RemoveGivenCharacter.removeCharacterV2(TEXT10,'o'));
+//        System.out.println(RemoveGivenCharacter.removeCharacterV1(TEXT10,CHAR));
+//        System.out.println(RemoveGivenCharacter.removeCharacterV2(TEXT10,'o'));
+
+        /** **/
+        String TEXT11 = "My high school, the Illinois Mathematics and Science Academy, "
+                + "showed me that anything is possible and that you're never too young to think big. "
+                + "At 15, I worked as a computer programmer at the Fermi National Accelerator Laboratory, "
+                + "or Fermilab. After graduating, I attended Stanford for a degree in economics and "
+                + "computer science.";
+        System.out.println(FindCharacterWithMostAppearaces.maxOccurenceCharacterV1(TEXT11));
     }
+
+
+
 }
