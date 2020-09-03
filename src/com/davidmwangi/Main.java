@@ -74,8 +74,11 @@ public class Main {
 
          /** Check if is palindrome **/
          String TEXT8 = "ABCDEFEDCBA";
-         System.out.println(CheckPalindrome.isPalindromev1(TEXT8));
-         System.out.println(CheckPalindrome.isPalindromeV2(TEXT8));
+//         System.out.println(CheckPalindrome.isPalindromev1(TEXT8));
+//         System.out.println(CheckPalindrome.isPalindromeV2(TEXT8));
 
+        /** Removing duplicate characters **/
+        String TEXT9 = "!ABCBA;C D E-D  D  DFA;";
+        System.out.println(RemoveDuplicateCharacters.removeDuplicatesV1(TEXT9));
     }
 }
