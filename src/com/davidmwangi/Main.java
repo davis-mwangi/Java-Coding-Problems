@@ -70,7 +70,11 @@ public class Main {
 
         /*** Generating all permutations **/
          String TEXT7 = "ABC";
-         GeneratePermutations.permuteAndPrint(TEXT7);
+//         GeneratePermutations.permuteAndPrint(TEXT7);
+
+         /** Check if is palindrome **/
+         String TEXT8 = "ABCDEFEDCBA";
+         System.out.println(CheckPalindrome.isPalindrome(TEXT8));
 
     }
 }
