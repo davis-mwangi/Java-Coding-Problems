@@ -79,6 +79,12 @@ public class Main {
 
         /** Removing duplicate characters **/
         String TEXT9 = "!ABCBA;C D E-D  D  DFA;";
-        System.out.println(RemoveDuplicateCharacters.removeDuplicatesV1(TEXT9));
+//        System.out.println(RemoveDuplicateCharacters.removeDuplicatesV1(TEXT9));
+
+        /** Removing given characters **/
+        String TEXT10 = "oobotooorogshŜoootorgo";
+        char CHAR = 'Ŝ';
+        System.out.println(RemoveGivenCharacter.removeCharacterV1(TEXT10,CHAR));
+        System.out.println(RemoveGivenCharacter.removeCharacterV2(TEXT10,'o'));
     }
 }
