@@ -6,7 +6,7 @@ import java.util.StringJoiner;
 public class CheckPalindrome {
 
     /** Write a program that determines whether the given string is a palindrome or not.*/
-    public  static  boolean isPalindrome(String str){
+    public  static  boolean isPalindromeV2(String str){
        //Reverse string
         int len = str.length();
         StringBuilder sb =  new StringBuilder();
@@ -21,4 +21,22 @@ public class CheckPalindrome {
        return false;
 
     }
+
+    public  static  boolean isPalindromev1(String str){
+        //Reverse string
+       if(str == null ||  str.trim().isEmpty()){
+           return false;
+       }
+       int len =  str.length();
+       for(int i =0; i < len/2; i++){
+           if(str.charAt(i) != str.charAt(len - i -1)){
+               return false;
+           }
+       }
+       return true;
+    }
+
+
+
+
 }
