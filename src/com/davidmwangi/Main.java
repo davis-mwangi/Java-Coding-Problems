@@ -115,7 +115,16 @@ public class Main {
                 + "computer science.";
 
         String SUBTEXT = "programmer";
-        System.out.println(CheckStringContainsSubstring.containsV1(TEXT12,SUBTEXT));
+//        System.out.println(CheckStringContainsSubstring.containsV1(TEXT12,SUBTEXT));
+
+
+        /**Checking whether two strings are anagrams */
+        String TEXT13 = "hello world";
+        String TEXT14 = "dh\n le rlo l wo";
+//        System.out.println(CheckTwoStringsAnagram.isAnagramV1(TEXT13,TEXT14));
+
+        /** Declaring multiline strings (text blocks)*/
+        System.out.println(DeclareMultilineStrings.TEXT);
 
     }
 
