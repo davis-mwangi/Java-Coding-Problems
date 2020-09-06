@@ -124,7 +124,11 @@ public class Main {
 //        System.out.println(CheckTwoStringsAnagram.isAnagramV1(TEXT13,TEXT14));
 
         /** Declaring multiline strings (text blocks)*/
-        System.out.println(DeclareMultilineStrings.TEXT);
+//        System.out.println(DeclareMultilineStrings.TEXT_1);
+
+        /** */
+        String TEXT15 = "hello";
+        System.out.println(ConcatenateStringNTimes.concatRepeat(TEXT15,3));
 
     }
 
