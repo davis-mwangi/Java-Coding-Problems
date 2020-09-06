@@ -1,5 +1,6 @@
 package com.davidmwangi;
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
@@ -97,8 +98,17 @@ public class Main {
                 + "At 15, I worked as a computer programmer at the Fermi National Accelerator Laboratory, "
                 + "or Fermilab. After graduating, I attended Stanford for a degree in economics and "
                 + "computer science.";
-        System.out.println(FindCharacterWithMostAppearaces.maxOccurenceCharacterV1(TEXT11));
+//        System.out.println(FindCharacterWithMostAppearaces.maxOccurenceCharacterV1(TEXT11));
+
+
+        /** Sorting an array of strings by length **/
+        String[] strs = {"one", "two", "three", "four", "five",
+                "six", "seven", "eight", "nine", "ten"};
+        SortArrayOfStringByLength.sortArrayByLengthV1(strs, SortArrayOfStringByLength.Sort.DESC);
+        System.out.println(Arrays.toString(strs));
     }
+
+
 
 
 
