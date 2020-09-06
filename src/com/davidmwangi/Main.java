@@ -104,8 +104,19 @@ public class Main {
         /** Sorting an array of strings by length **/
         String[] strs = {"one", "two", "three", "four", "five",
                 "six", "seven", "eight", "nine", "ten"};
-        SortArrayOfStringByLength.sortArrayByLengthV1(strs, SortArrayOfStringByLength.Sort.DESC);
-        System.out.println(Arrays.toString(strs));
+//        SortArrayOfStringByLength.sortArrayByLengthV1(strs, SortArrayOfStringByLength.Sort.DESC);
+//        System.out.println(Arrays.toString(strs));
+
+
+         String TEXT12 = "My high school, the Illinois Mathematics and Science Academy, "
+                + "showed me that anything is possible and that you're never too young to think big. "
+                + "At 15, I worked as a computer programmer at the Fermi National Accelerator Laboratory, "
+                + "or Fermilab. After graduating, I attended Stanford for a degree in economics and "
+                + "computer science.";
+
+        String SUBTEXT = "programmer";
+        System.out.println(CheckStringContainsSubstring.containsV1(TEXT12,SUBTEXT));
+
     }
 
 
